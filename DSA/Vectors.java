@@ -3,7 +3,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Vector;
 
-public class Vectorr {
+public class Vectors {
     public static void main(String[] args) {
         List<Integer> vec = new Vector<>();
 
