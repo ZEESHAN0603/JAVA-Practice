@@ -1,4 +1,4 @@
-package Phase1.Data_Type;
+package data_type;
 
 // Creation of variables for primitive data types
 public class Primitive_datatype {

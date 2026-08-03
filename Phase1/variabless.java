@@ -1,5 +1,3 @@
-package Phase1;
-
 // Creation of Variables
 public class variabless {
     String name;

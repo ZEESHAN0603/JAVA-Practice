@@ -1,4 +1,4 @@
-package Data_Type.Non_Primitive_type;
+package data_type.Non_Primitive_type;
 
 // String cls called using obj on the main method
 public class string_cls {

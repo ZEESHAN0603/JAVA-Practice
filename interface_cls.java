@@ -1,5 +1,3 @@
-package Data_Type.Non_Primitive_type;
-
 // Interface is just define the method name and rules only doesn't implement anything
 interface Animal{
     void eat();

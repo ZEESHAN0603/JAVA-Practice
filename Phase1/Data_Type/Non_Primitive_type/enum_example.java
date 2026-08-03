@@ -1,4 +1,4 @@
-package Data_Type.Non_Primitive_type;
+package data_type.Non_Primitive_type;
 
 // Enum means a special "class" that represents a group of constants (unchangeable variables, like final variables).
 enum enum_cls {

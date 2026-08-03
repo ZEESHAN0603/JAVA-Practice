@@ -1,4 +1,4 @@
-package Data_Type.Non_Primitive_type;
+
 
 // Parent cls
 class payment{
