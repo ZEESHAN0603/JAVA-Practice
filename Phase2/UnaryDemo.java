@@ -1,6 +1,6 @@
 package Phase2;
 
-public class OperatorDemo {
+public class UnaryDemo {
     public static void main(String[] args) {
         // Unary Plus and Minus
         int a = 5;

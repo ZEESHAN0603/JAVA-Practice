@@ -16,13 +16,7 @@ public class BitwiseDemo {
         System.out.println("12 ^ 10 = " + XOR); // 6
 
         // Complement of 5
-        int complement = ~5;
-        System.out.println("~5 = " + complement); // -6
-
-        // Convert 25 to binary, then perform 25 & 15
-        // 25 = 11001 (binary)
-        // 15 = 01111 (binary)
-        int manualAnd = 25 & 15;
-        System.out.println("25 & 15 = " + manualAnd); // 9
+        int COMP = ~5;
+        System.out.println("~5 = " + COMP); // -6 it first do the 1's complement then goes to 2's complement and reverse that is answer
     }
 }
