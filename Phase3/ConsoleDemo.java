@@ -11,7 +11,7 @@ public class ConsoleDemo {
         // Check the console is null or not    
         if (cn == null) {
             System.out.println("Console not available");
-            return; // Exit if no console
+            return; // Exit if no console avail
         }
 
         // Basic Input and display
@@ -19,7 +19,7 @@ public class ConsoleDemo {
         System.out.println("Hello, " + name);
 
         // Password echo is disabled using readPassword key
-        char[] password = cn.readPassword("Enter your password: ");
+        char[] password = cn.readPassword("Enter your password: "); //char[] means char of array why char becoz char is mutable but string is immutable password we can change or del using char not by string
         System.out.println("Password entered Length: " + password.length);
 
         // Login Program
@@ -34,7 +34,7 @@ public class ConsoleDemo {
         }
 
         // Clear password arrays for security
-        Arrays.fill(password, ' '); // clear the array of char for security reasons
+        Arrays.fill(password, ' '); // clear the char of array for security reasons
         Arrays.fill(loginPassword, ' '); //  this means loginPassword is filled with space 
 
         // Formatted Prompt
